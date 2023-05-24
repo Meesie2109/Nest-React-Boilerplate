@@ -2,12 +2,12 @@
   <a href="https://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 <h1 align="center">
-  Boilerplate
+  Nest-React-Boilerplate
 </h1>
 
 
 ## Getting Started
-This repository is a template for NextJS + React full stack applications using turbo and prisma.
+This repository is a boilerplate for NestJS + React full stack applications using turbo, prisma and docker.
 
 ### Installation
 _Installation process for the repository_
@@ -32,8 +32,14 @@ _Installation process for the repository_
    docker compose up dev-db -d
    ```
    
-5. The boilerplate is now ready for usage
+5. Migrate the the database using prisma
+   ```sh
+   npx prisma migrate dev
+   ```
    
+6. The repo is now ready to use
+   
+
 
 ### Usage
 _Basic commands and code examples for this repository_
