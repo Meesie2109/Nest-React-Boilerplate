@@ -32,7 +32,11 @@ _Installation process for the repository_
    docker compose up dev-db -d
    ```
    
-5. The boilerplate is now ready for usage
+5. Migrate the the database using prisma
+   ```sh
+   npx prisma migrate dev
+   ```
+6. The repo is now ready to use
    
 
 ### Usage
